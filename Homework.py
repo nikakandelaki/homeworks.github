@@ -1,0 +1,11 @@
+name = input ( " whats your name: " )
+surname = input ( " whats your surname: " )
+age = input ( " how old are you: " )
+country = input ( " in which country do you live: " )
+city = input ( " which city do you live in: " )
+street_address = input ( " what is your street: " )
+facebook = input ( " what is your facebook username: " )
+instagram = input ( " what is your instagram username: " )
+phone_number = input ( " what is your phone number: " )
+
+print ( "My Name is" + " " + name + " " + "My Surname is" + " " + surname + " " + "I am" + " " + age + " " + "My Country is" + " " + country + " " + "I Live in" + " " + city + " " + "My Street Address is" + " " + street_address + " " + "My facebook username is" + " " + facebook + " " + "My instagram username is" + " " + instagram + " " + "My Phone Number is" + " " + phone_number)
