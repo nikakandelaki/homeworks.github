@@ -1,11 +1,11 @@
-for i in range(11):
-   print("1 * 0" + str(i))
-   print("2 * 0" + str(i))
-   print("3 * 0" + str(i))
-   print("4 * 0" + str(i))
-   print("5 * 0" + str(i))
-   print("6 * 0" + str(i))
-   print("7 * 0" + str(i))
-   print("8 * 0" + str(i))
-   print("9 * 0" + str(i))
-   print("10 * 0" + str(i))
+for i in range(1,100):
+    if i % 3 == 0:
+     print("goa")
+
+for i in range(1,100):
+   if i % 5 == 0:
+          print("goa11")
+
+for i in range(1,100):
+    if i % 15 == 0:
+            print("goa15")
