@@ -1,6 +1,7 @@
-list = ["ნიკა","ალექსანდრე","ანდრია"]
-list2 =["კანდელაკი", "კანდელაკი", "კანდელაკი"]
-
-print(list[0] + " " + list2[0])
-print(list[1] + " " + list2[1])
-print(list[2] + " " + list2[2])
+სახელი = "Nikoloz Kandelaki"
+ხმოვნები = 0
+for i in range(0,len(სახელი)):
+    char = (სახელი[i])
+    if char == "a" or char == "e" or char == "i" or char == "o":
+        ხმოვნები += 1
+print(ხმოვნები)
